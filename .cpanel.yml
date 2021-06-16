@@ -1,7 +1,7 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/adityaet/public_html/
+ - export DEPLOYPATH=/home/buggy/public_html/
  - /bin/cp index.html $DEPLOYPATH
  - /bin/cp -R img $DEPLOYPATH
  - /bin/cp -R scripts $DEPLOYPATH
